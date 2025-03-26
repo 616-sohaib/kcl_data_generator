@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodel:Department xmlns:metamodel="platform:/resource/teachingassistant.kcl.metamodel/model/Metamodel.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Informatics" xmi:version="2.0">
+  <assistants name="Assistant_1" minimumHoursPerWeek="0" maximumHoursPerWeek="12" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.3">
+    <skills name="4CCS1FCOM" preference="0" />
+    <skills name="4CCS1DBS" preference="2" />
+    <skills name="4CCS1PRP" preference="2" />
+    <skills name="5CCS2OS" preference="2" />
+    <skills name="5CCS2SEG" preference="2" />
+    <skills name="6CCS3ML" preference="1" />
+    <skills name="6CCS3ALG" preference="2" />
+  </assistants>
+  <assistants name="Assistant_2" minimumHoursPerWeek="0" maximumHoursPerWeek="6" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.2">
+    <skills name="4CCS1FCOM" preference="2" />
+    <skills name="4CCS1DBS" preference="2" />
+    <skills name="4CCS1PRP" preference="1" />
+    <skills name="5CCS2OS" preference="0" />
+    <skills name="5CCS2SEG" preference="2" />
+    <skills name="6CCS3ML" preference="2" />
+    <skills name="6CCS3ALG" preference="2" />
+  </assistants>
+  <assistants name="Assistant_3" minimumHoursPerWeek="0" maximumHoursPerWeek="13" maximumDaysPerWeek="3" maximumHoursTotal="312">
+    <skills name="4CCS1FCOM" preference="0" />
+    <skills name="4CCS1DBS" preference="2" />
+    <skills name="4CCS1PRP" preference="2" />
+    <skills name="5CCS2OS" preference="2" />
+    <skills name="5CCS2SEG" preference="2" />
+    <skills name="6CCS3ML" preference="2" />
+    <skills name="6CCS3ALG" preference="2" />
+  </assistants>
+  <assistants name="Assistant_4" minimumHoursPerWeek="0" maximumHoursPerWeek="6" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.10">
+    <skills name="4CCS1FCOM" preference="2" />
+    <skills name="4CCS1DBS" preference="1" />
+    <skills name="4CCS1PRP" preference="0" />
+    <skills name="5CCS2OS" preference="2" />
+    <skills name="5CCS2SEG" preference="1" />
+    <skills name="6CCS3ML" preference="2" />
+    <skills name="6CCS3ALG" preference="2" />
+  </assistants>
+  <assistants name="Assistant_5" minimumHoursPerWeek="0" maximumHoursPerWeek="10" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.15">
+    <skills name="4CCS1FCOM" preference="1" />
+    <skills name="4CCS1DBS" preference="1" />
+    <skills name="4CCS1PRP" preference="0" />
+    <skills name="5CCS2OS" preference="1" />
+    <skills name="5CCS2SEG" preference="0" />
+    <skills name="6CCS3ML" preference="2" />
+    <skills name="6CCS3ALG" preference="0" />
+  </assistants>
+  <assistants name="Assistant_6" minimumHoursPerWeek="0" maximumHoursPerWeek="19" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.16">
+    <skills name="4CCS1FCOM" preference="2" />
+    <skills name="4CCS1DBS" preference="0" />
+    <skills name="4CCS1PRP" preference="1" />
+    <skills name="5CCS2OS" preference="2" />
+    <skills name="5CCS2SEG" preference="1" />
+    <skills name="6CCS3ML" preference="1" />
+    <skills name="6CCS3ALG" preference="0" />
+  </assistants>
+  <assistants name="Assistant_7" minimumHoursPerWeek="0" maximumHoursPerWeek="7" maximumDaysPerWeek="3" maximumHoursTotal="312">
+    <skills name="4CCS1FCOM" preference="2" />
+    <skills name="4CCS1DBS" preference="1" />
+    <skills name="4CCS1PRP" preference="0" />
+    <skills name="5CCS2OS" preference="2" />
+    <skills name="5CCS2SEG" preference="1" />
+    <skills name="6CCS3ML" preference="2" />
+    <skills name="6CCS3ALG" preference="2" />
+  </assistants>
+  <assistants name="Assistant_8" minimumHoursPerWeek="0" maximumHoursPerWeek="6" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.4">
+    <skills name="4CCS1FCOM" preference="2" />
+    <skills name="4CCS1DBS" preference="0" />
+    <skills name="4CCS1PRP" preference="1" />
+    <skills name="5CCS2OS" preference="1" />
+    <skills name="5CCS2SEG" preference="1" />
+    <skills name="6CCS3ML" preference="0" />
+    <skills name="6CCS3ALG" preference="0" />
+  </assistants>
+  <assistants name="Assistant_9" minimumHoursPerWeek="0" maximumHoursPerWeek="18" maximumDaysPerWeek="3" maximumHoursTotal="312">
+    <skills name="4CCS1FCOM" preference="1" />
+    <skills name="4CCS1DBS" preference="1" />
+    <skills name="4CCS1PRP" preference="0" />
+    <skills name="5CCS2OS" preference="1" />
+    <skills name="5CCS2SEG" preference="0" />
+    <skills name="6CCS3ML" preference="1" />
+    <skills name="6CCS3ALG" preference="0" />
+  </assistants>
+  <assistants name="Assistant_10" minimumHoursPerWeek="0" maximumHoursPerWeek="17" maximumDaysPerWeek="3" maximumHoursTotal="312" blockedDates="//@days.12">
+    <skills name="4CCS1FCOM" preference="1" />
+    <skills name="4CCS1DBS" preference="0" />
+    <skills name="4CCS1PRP" preference="0" />
+    <skills name="5CCS2OS" preference="0" />
+    <skills name="5CCS2SEG" preference="0" />
+    <skills name="6CCS3ML" preference="2" />
+    <skills name="6CCS3ALG" preference="0" />
+  </assistants>
+  <tutorials name="4CCS1FCOM_Tutorial_Group1" duration="1" skillType="4CCS1FCOM" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.7" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Tutorial_Group2" duration="1" skillType="4CCS1FCOM" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.8" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Tutorial_Group3" duration="1" skillType="4CCS1FCOM" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.3" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Tutorial_Group4" duration="1" skillType="4CCS1FCOM" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.0" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Lab_Group1" duration="2" skillType="4CCS1FCOM" type="Lab" campus="Waterloo" requiredNumberOfTas="2" timeslot="//@timeslots.5" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Lab_Group2" duration="2" skillType="4CCS1FCOM" type="Lab" campus="Waterloo" requiredNumberOfTas="2" timeslot="//@timeslots.1" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Lab_Group3" duration="2" skillType="4CCS1FCOM" type="Lab" campus="Waterloo" requiredNumberOfTas="2" timeslot="//@timeslots.7" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1FCOM_Lab_Group4" duration="2" skillType="4CCS1FCOM" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.1" lecturer="//@lecturers.0" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Tutorial_Group1" duration="1" skillType="4CCS1DBS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.0" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Tutorial_Group2" duration="1" skillType="4CCS1DBS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.5" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Tutorial_Group3" duration="1" skillType="4CCS1DBS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.6" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Tutorial_Group4" duration="1" skillType="4CCS1DBS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.4" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Lab_Group1" duration="2" skillType="4CCS1DBS" type="Lab" campus="Strand" requiredNumberOfTas="2" timeslot="//@timeslots.4" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Lab_Group2" duration="2" skillType="4CCS1DBS" type="Lab" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.2" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Lab_Group3" duration="2" skillType="4CCS1DBS" type="Lab" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.8" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1DBS_Lab_Group4" duration="2" skillType="4CCS1DBS" type="Lab" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.9" lecturer="//@lecturers.1" weeks="//@weeks.0 //@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1PRP_Tutorial_Group1" duration="1" skillType="4CCS1PRP" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.2" lecturer="//@lecturers.2" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1PRP_Tutorial_Group2" duration="1" skillType="4CCS1PRP" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.4" lecturer="//@lecturers.2" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1PRP_Tutorial_Group3" duration="1" skillType="4CCS1PRP" type="Tutorial" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.9" lecturer="//@lecturers.2" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1PRP_Lab_Group1" duration="2" skillType="4CCS1PRP" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.7" lecturer="//@lecturers.2" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1PRP_Lab_Group2" duration="2" skillType="4CCS1PRP" type="Lab" campus="Waterloo" requiredNumberOfTas="2" timeslot="//@timeslots.1" lecturer="//@lecturers.2" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="4CCS1PRP_Lab_Group3" duration="2" skillType="4CCS1PRP" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.7" lecturer="//@lecturers.2" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="5CCS2OS_Tutorial_Group1" duration="1" skillType="5CCS2OS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.1" lecturer="//@lecturers.3" weeks="//@weeks.1" />
+  <tutorials name="5CCS2OS_Tutorial_Group2" duration="1" skillType="5CCS2OS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.6" lecturer="//@lecturers.3" weeks="//@weeks.1" />
+  <tutorials name="5CCS2OS_Tutorial_Group3" duration="1" skillType="5CCS2OS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.3" lecturer="//@lecturers.3" weeks="//@weeks.1" />
+  <tutorials name="5CCS2OS_Tutorial_Group4" duration="1" skillType="5CCS2OS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.3" lecturer="//@lecturers.3" weeks="//@weeks.1" />
+  <tutorials name="5CCS2OS_Tutorial_Group5" duration="1" skillType="5CCS2OS" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.7" lecturer="//@lecturers.3" weeks="//@weeks.1" />
+  <tutorials name="5CCS2SEG_Lab_Group1" duration="2" skillType="5CCS2SEG" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.8" lecturer="//@lecturers.4" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="5CCS2SEG_Lab_Group2" duration="2" skillType="5CCS2SEG" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.5" lecturer="//@lecturers.4" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="5CCS2SEG_Lab_Group3" duration="2" skillType="5CCS2SEG" type="Lab" campus="Waterloo" requiredNumberOfTas="2" timeslot="//@timeslots.5" lecturer="//@lecturers.4" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="5CCS2SEG_Lab_Group4" duration="2" skillType="5CCS2SEG" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.9" lecturer="//@lecturers.4" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="5CCS2SEG_Lab_Group5" duration="2" skillType="5CCS2SEG" type="Lab" campus="Waterloo" requiredNumberOfTas="1" timeslot="//@timeslots.5" lecturer="//@lecturers.4" weeks="//@weeks.1 //@weeks.2 //@weeks.3" />
+  <tutorials name="6CCS3ML_Tutorial_Group1" duration="1" skillType="6CCS3ML" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.8" lecturer="//@lecturers.5" weeks="//@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ML_Tutorial_Group2" duration="1" skillType="6CCS3ML" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.2" lecturer="//@lecturers.5" weeks="//@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ML_Tutorial_Group3" duration="1" skillType="6CCS3ML" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.8" lecturer="//@lecturers.5" weeks="//@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ML_Tutorial_Group4" duration="1" skillType="6CCS3ML" type="Tutorial" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.1" lecturer="//@lecturers.5" weeks="//@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ALG_Lab_Group1" duration="2" skillType="6CCS3ALG" type="Lab" campus="Strand" requiredNumberOfTas="2" timeslot="//@timeslots.1" lecturer="//@lecturers.6" weeks="//@weeks.0 //@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ALG_Lab_Group2" duration="2" skillType="6CCS3ALG" type="Lab" campus="Strand" requiredNumberOfTas="2" timeslot="//@timeslots.1" lecturer="//@lecturers.6" weeks="//@weeks.0 //@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ALG_Lab_Group3" duration="2" skillType="6CCS3ALG" type="Lab" campus="Strand" requiredNumberOfTas="1" timeslot="//@timeslots.1" lecturer="//@lecturers.6" weeks="//@weeks.0 //@weeks.1 //@weeks.2" />
+  <tutorials name="6CCS3ALG_Lab_Group4" duration="2" skillType="6CCS3ALG" type="Lab" campus="Strand" requiredNumberOfTas="2" timeslot="//@timeslots.1" lecturer="//@lecturers.6" weeks="//@weeks.0 //@weeks.1 //@weeks.2" />
+  <timeslots name="0" id="0" day="//@days.0" />
+  <timeslots name="1" id="1" day="//@days.1" />
+  <timeslots name="2" id="2" day="//@days.2" />
+  <timeslots name="3" id="3" day="//@days.3" />
+  <timeslots name="4" id="4" day="//@days.4" />
+  <timeslots name="5" id="5" day="//@days.0" />
+  <timeslots name="6" id="6" day="//@days.1" />
+  <timeslots name="7" id="7" day="//@days.2" />
+  <timeslots name="8" id="8" day="//@days.3" />
+  <timeslots name="9" id="9" day="//@days.4" />
+  <timeslots name="10" id="10" day="//@days.5" />
+  <timeslots name="11" id="11" day="//@days.6" />
+  <timeslots name="12" id="12" day="//@days.7" />
+  <timeslots name="13" id="13" day="//@days.8" />
+  <timeslots name="14" id="14" day="//@days.9" />
+  <timeslots name="15" id="15" day="//@days.5" />
+  <timeslots name="16" id="16" day="//@days.6" />
+  <timeslots name="17" id="17" day="//@days.7" />
+  <timeslots name="18" id="18" day="//@days.8" />
+  <timeslots name="19" id="19" day="//@days.9" />
+  <timeslots name="20" id="20" day="//@days.10" />
+  <timeslots name="21" id="21" day="//@days.11" />
+  <timeslots name="22" id="22" day="//@days.12" />
+  <timeslots name="23" id="23" day="//@days.13" />
+  <timeslots name="24" id="24" day="//@days.14" />
+  <timeslots name="25" id="25" day="//@days.10" />
+  <timeslots name="26" id="26" day="//@days.11" />
+  <timeslots name="27" id="27" day="//@days.12" />
+  <timeslots name="28" id="28" day="//@days.13" />
+  <timeslots name="29" id="29" day="//@days.14" />
+  <timeslots name="30" id="30" day="//@days.15" />
+  <timeslots name="31" id="31" day="//@days.16" />
+  <timeslots name="32" id="32" day="//@days.17" />
+  <timeslots name="33" id="33" day="//@days.18" />
+  <timeslots name="34" id="34" day="//@days.19" />
+  <timeslots name="35" id="35" day="//@days.15" />
+  <timeslots name="36" id="36" day="//@days.16" />
+  <timeslots name="37" id="37" day="//@days.17" />
+  <timeslots name="38" id="38" day="//@days.18" />
+  <timeslots name="39" id="39" day="//@days.19" />
+  <lecturers tutorials="//@tutorials.0 //@tutorials.1 //@tutorials.2 //@tutorials.3 //@tutorials.4 //@tutorials.5 //@tutorials.6 //@tutorials.7" name="Lecturer_1" skillTypeName="4CCS1FCOM" maximumNumberOfTas="6" />
+  <lecturers tutorials="//@tutorials.8 //@tutorials.9 //@tutorials.10 //@tutorials.11 //@tutorials.12 //@tutorials.13 //@tutorials.14 //@tutorials.15" name="Lecturer_2" skillTypeName="4CCS1DBS" maximumNumberOfTas="7" />
+  <lecturers tutorials="//@tutorials.16 //@tutorials.17 //@tutorials.18 //@tutorials.19 //@tutorials.20 //@tutorials.21" name="Lecturer_3" skillTypeName="4CCS1PRP" maximumNumberOfTas="2" />
+  <lecturers tutorials="//@tutorials.22 //@tutorials.23 //@tutorials.24 //@tutorials.25 //@tutorials.26" name="Lecturer_4" skillTypeName="5CCS2OS" maximumNumberOfTas="5" />
+  <lecturers tutorials="//@tutorials.27 //@tutorials.28 //@tutorials.29 //@tutorials.30 //@tutorials.31" name="Lecturer_5" skillTypeName="5CCS2SEG" maximumNumberOfTas="6" />
+  <lecturers tutorials="//@tutorials.32 //@tutorials.33 //@tutorials.34 //@tutorials.35" name="Lecturer_6" skillTypeName="6CCS3ML" maximumNumberOfTas="3" />
+  <lecturers tutorials="//@tutorials.36 //@tutorials.37 //@tutorials.38 //@tutorials.39" name="Lecturer_7" skillTypeName="6CCS3ALG" maximumNumberOfTas="5" />
+  <days timeslots="//@timeslots.0 //@timeslots.5" name="Week_23_Monday" week="//@weeks.0" />
+  <days timeslots="//@timeslots.1 //@timeslots.6" name="Week_23_Tuesday" week="//@weeks.0" />
+  <days timeslots="//@timeslots.2 //@timeslots.7" name="Week_23_Wednesday" week="//@weeks.0" />
+  <days timeslots="//@timeslots.3 //@timeslots.8" name="Week_23_Thursday" week="//@weeks.0" />
+  <days timeslots="//@timeslots.4 //@timeslots.9" name="Week_23_Friday" week="//@weeks.0" />
+  <days timeslots="//@timeslots.10 //@timeslots.15" name="Week_24_Monday" week="//@weeks.1" />
+  <days timeslots="//@timeslots.11 //@timeslots.16" name="Week_24_Tuesday" week="//@weeks.1" />
+  <days timeslots="//@timeslots.12 //@timeslots.17" name="Week_24_Wednesday" week="//@weeks.1" />
+  <days timeslots="//@timeslots.13 //@timeslots.18" name="Week_24_Thursday" week="//@weeks.1" />
+  <days timeslots="//@timeslots.14 //@timeslots.19" name="Week_24_Friday" week="//@weeks.1" />
+  <days timeslots="//@timeslots.20 //@timeslots.25" name="Week_25_Monday" week="//@weeks.2" />
+  <days timeslots="//@timeslots.21 //@timeslots.26" name="Week_25_Tuesday" week="//@weeks.2" />
+  <days timeslots="//@timeslots.22 //@timeslots.27" name="Week_25_Wednesday" week="//@weeks.2" />
+  <days timeslots="//@timeslots.23 //@timeslots.28" name="Week_25_Thursday" week="//@weeks.2" />
+  <days timeslots="//@timeslots.24 //@timeslots.29" name="Week_25_Friday" week="//@weeks.2" />
+  <days timeslots="//@timeslots.30 //@timeslots.35" name="Week_26_Monday" week="//@weeks.3" />
+  <days timeslots="//@timeslots.31 //@timeslots.36" name="Week_26_Tuesday" week="//@weeks.3" />
+  <days timeslots="//@timeslots.32 //@timeslots.37" name="Week_26_Wednesday" week="//@weeks.3" />
+  <days timeslots="//@timeslots.33 //@timeslots.38" name="Week_26_Thursday" week="//@weeks.3" />
+  <days timeslots="//@timeslots.34 //@timeslots.39" name="Week_26_Friday" week="//@weeks.3" />
+  <weeks days="//@days.0 //@days.1 //@days.2 //@days.3 //@days.4" name="Week_23" />
+  <weeks days="//@days.5 //@days.6 //@days.7 //@days.8 //@days.9" name="Week_24" />
+  <weeks days="//@days.10 //@days.11 //@days.12 //@days.13 //@days.14" name="Week_25" />
+  <weeks days="//@days.15 //@days.16 //@days.17 //@days.18 //@days.19" name="Week_26" />
+  <modules lecturer="//@lecturers.0" name="Foundations of Computing" code="4CCS1FCOM" maximumNumberOfTas="6" />
+  <modules lecturer="//@lecturers.1" name="Database Systems" code="4CCS1DBS" maximumNumberOfTas="7" />
+  <modules lecturer="//@lecturers.2" name="Programming Practice" code="4CCS1PRP" maximumNumberOfTas="2" />
+  <modules lecturer="//@lecturers.3" name="Operating Systems" code="5CCS2OS" maximumNumberOfTas="5" />
+  <modules lecturer="//@lecturers.4" name="Software Engineering" code="5CCS2SEG" maximumNumberOfTas="6" />
+  <modules lecturer="//@lecturers.5" name="Machine Learning" code="6CCS3ML" maximumNumberOfTas="3" />
+  <modules lecturer="//@lecturers.6" name="Algorithms" code="6CCS3ALG" maximumNumberOfTas="5" />
+</metamodel:Department>

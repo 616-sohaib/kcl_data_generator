@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:teachingassistant.kcl.metamodel="platform:/resource/teachingassistant.kcl.metamodel/model/Metamodel.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="platform:/resource/teachingassistant.kcl.metamodel/model/Metamodel.ecore">
+  <xsd:annotation>
+    <xsd:documentation>TODO: Add documentation for metamodel. Hint: You may copy this element in the Ecore editor to add documentation to EClasses, EOperations, ...</xsd:documentation>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.omg.org/XMI" schemaLocation="platform:/plugin/org.eclipse.emf.ecore/model/XMI.xsd"/>
+  <xsd:complexType abstract="true" name="NamedElement">
+    <xsd:choice maxOccurs="unbounded" minOccurs="0">
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="name" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="NamedElement" type="teachingassistant.kcl.metamodel:NamedElement"/>
+  <xsd:complexType name="Department">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="assistants" type="teachingassistant.kcl.metamodel:Assistant"/>
+          <xsd:element name="tutorials" type="teachingassistant.kcl.metamodel:Tutorial"/>
+          <xsd:element name="timeslots" type="teachingassistant.kcl.metamodel:Timeslot"/>
+          <xsd:element name="lecturers" type="teachingassistant.kcl.metamodel:Lecturer"/>
+          <xsd:element name="days" type="teachingassistant.kcl.metamodel:Day"/>
+          <xsd:element name="weeks" type="teachingassistant.kcl.metamodel:Week"/>
+          <xsd:element name="modules" type="teachingassistant.kcl.metamodel:Module"/>
+        </xsd:choice>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Department" type="teachingassistant.kcl.metamodel:Department"/>
+  <xsd:complexType name="Assistant">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="skills" type="teachingassistant.kcl.metamodel:Skill"/>
+          <xsd:element name="blockedDates" type="teachingassistant.kcl.metamodel:Day"/>
+        </xsd:choice>
+        <xsd:attribute name="minimumHoursPerWeek" type="xsd:int"/>
+        <xsd:attribute name="maximumHoursPerWeek" type="xsd:int"/>
+        <xsd:attribute name="maximumDaysPerWeek" type="xsd:int"/>
+        <xsd:attribute name="maximumHoursTotal" type="xsd:int"/>
+        <xsd:attribute name="blockedDates" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Assistant" type="teachingassistant.kcl.metamodel:Assistant"/>
+  <xsd:complexType name="Tutorial">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="givenBy" type="teachingassistant.kcl.metamodel:Assistant"/>
+          <xsd:element name="timeslot" type="teachingassistant.kcl.metamodel:Timeslot"/>
+          <xsd:element name="lecturer" type="teachingassistant.kcl.metamodel:Lecturer"/>
+          <xsd:element name="weeks" type="teachingassistant.kcl.metamodel:Week"/>
+        </xsd:choice>
+        <xsd:attribute name="duration" type="xsd:int"/>
+        <xsd:attribute name="skillType" type="xsd:string"/>
+        <xsd:attribute name="type" type="xsd:string"/>
+        <xsd:attribute name="campus" type="xsd:string"/>
+        <xsd:attribute name="requiredNumberOfTas" type="xsd:int"/>
+        <xsd:attribute name="givenBy" type="xsd:string"/>
+        <xsd:attribute name="timeslot" type="xsd:string"/>
+        <xsd:attribute name="lecturer" type="xsd:string"/>
+        <xsd:attribute name="weeks" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Tutorial" type="teachingassistant.kcl.metamodel:Tutorial"/>
+  <xsd:complexType name="Skill">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:attribute name="preference" type="xsd:int"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Skill" type="teachingassistant.kcl.metamodel:Skill"/>
+  <xsd:complexType name="Timeslot">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="day" type="teachingassistant.kcl.metamodel:Day"/>
+        </xsd:choice>
+        <xsd:attribute name="id" type="xsd:int"/>
+        <xsd:attribute name="day" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Timeslot" type="teachingassistant.kcl.metamodel:Timeslot"/>
+  <xsd:complexType name="Lecturer">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="tutorials" type="teachingassistant.kcl.metamodel:Tutorial"/>
+        </xsd:choice>
+        <xsd:attribute name="skillTypeName" type="xsd:string"/>
+        <xsd:attribute name="maximumNumberOfTas" type="xsd:int"/>
+        <xsd:attribute name="tutorials" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Lecturer" type="teachingassistant.kcl.metamodel:Lecturer"/>
+  <xsd:complexType name="Day">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="timeslots" type="teachingassistant.kcl.metamodel:Timeslot"/>
+          <xsd:element name="week" type="teachingassistant.kcl.metamodel:Week"/>
+        </xsd:choice>
+        <xsd:attribute name="timeslots" type="xsd:string"/>
+        <xsd:attribute name="week" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Day" type="teachingassistant.kcl.metamodel:Day"/>
+  <xsd:complexType name="Week">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="days" type="teachingassistant.kcl.metamodel:Day"/>
+        </xsd:choice>
+        <xsd:attribute name="days" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Week" type="teachingassistant.kcl.metamodel:Week"/>
+  <xsd:complexType name="Module">
+    <xsd:complexContent>
+      <xsd:extension base="teachingassistant.kcl.metamodel:NamedElement">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+          <xsd:element name="lecturer" type="teachingassistant.kcl.metamodel:Lecturer"/>
+          <xsd:element name="tutorials" type="teachingassistant.kcl.metamodel:Tutorial"/>
+        </xsd:choice>
+        <xsd:attribute name="code" type="xsd:string"/>
+        <xsd:attribute name="maximumNumberOfTas" type="xsd:int"/>
+        <xsd:attribute name="lecturer" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Module" type="teachingassistant.kcl.metamodel:Module"/>
+</xsd:schema>
